@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T08:20:36.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fO-rv97jzBXp5PnpMWNh" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-12T08:25:13.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Meg8wjja8zyignLvz9Ia" version="20.6.0" type="github">
   <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -26,10 +26,10 @@
           <mxGeometry x="183.00236994219654" y="46" width="120.30248554913295" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-3" value="cw1&lt;br&gt;MQ&lt;br&gt;10.10.71.111:5678" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="-12" y="399" width="181" height="70" as="geometry" />
+          <mxGeometry x="-12" y="383" width="181" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-4" value="cw2&lt;br&gt;MQ&lt;br&gt;10.10.71.111:5679" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
-          <mxGeometry x="331.5" y="399" width="181" height="70" as="geometry" />
+          <mxGeometry x="331.5" y="384" width="181" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zQ9i3q9YDAYz2BxAbwR4-10" target="zQ9i3q9YDAYz2BxAbwR4-100">
           <mxGeometry relative="1" as="geometry" />
@@ -64,8 +64,8 @@
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-8" value="client-new-slow" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#cce5ff;sketch=1;strokeColor=#36393d;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-29">
           <mxGeometry x="106.27" y="20" width="90.42" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zQ9i3q9YDAYz2BxAbwR4-27" value="CW New Tenant&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;dashPattern=1 1;gradientColor=#FFE599;gradientDirection=radial;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-29">
-          <mxGeometry x="45.38181818181818" y="89.42079207920793" width="113.45454545454545" height="30" as="geometry" />
+        <mxCell id="zQ9i3q9YDAYz2BxAbwR4-27" value="CW New Tenant Init Sync&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;dashPattern=1 1;gradientColor=#FFE599;gradientDirection=radial;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-29">
+          <mxGeometry x="30" y="89.42" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-33" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-130" y="130" width="210" height="130" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-56" value="10.10.71.112:6379-8" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;shadow=0;dashed=1;dashPattern=1 1;fillColor=#FF3333;gradientColor=none;gradientDirection=radial;" vertex="1" parent="1">
-          <mxGeometry x="208" y="399" width="83.33" height="70" as="geometry" />
+          <mxGeometry x="208" y="378" width="83.33" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-59" value="source db" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;shadow=0;dashed=1;dashPattern=1 1;fillColor=#FF3333;gradientColor=none;gradientDirection=radial;" vertex="1" parent="1">
           <mxGeometry x="-340" y="900" width="135" height="180" as="geometry" />
@@ -170,13 +170,13 @@
           <mxGeometry width="370" height="139" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-2" value="callback(pre)/new-tenant&lt;br&gt;MQ&lt;br&gt;10.10.71.111:5677" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-102">
-          <mxGeometry x="23" y="15" width="210" height="70" as="geometry" />
+          <mxGeometry x="23" y="12" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-55" value="10.10.71.112:6397-1" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;shadow=0;dashed=1;dashPattern=1 1;fillColor=#FF3333;gradientColor=none;gradientDirection=radial;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-102">
-          <mxGeometry x="265" y="15" width="83.33" height="70" as="geometry" />
+          <mxGeometry x="263" y="9" width="83.33" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="zQ9i3q9YDAYz2BxAbwR4-101" value="CW Callback / New Tenant" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;dashPattern=1 1;gradientColor=#FFE599;gradientDirection=radial;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-102">
-          <mxGeometry x="129.01904807692307" y="99" width="103.9775" height="30" as="geometry" />
+        <mxCell id="zQ9i3q9YDAYz2BxAbwR4-101" value="CW Callback / New Tenant Init Sync" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;dashPattern=1 1;gradientColor=#FFE599;gradientDirection=radial;" vertex="1" parent="zQ9i3q9YDAYz2BxAbwR4-102">
+          <mxGeometry x="129.02" y="99" width="120.98" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-106" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zQ9i3q9YDAYz2BxAbwR4-100" target="zQ9i3q9YDAYz2BxAbwR4-50">
           <mxGeometry relative="1" as="geometry" />
@@ -192,6 +192,9 @@
         </mxCell>
         <mxCell id="zQ9i3q9YDAYz2BxAbwR4-132" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.533;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zQ9i3q9YDAYz2BxAbwR4-89" target="zQ9i3q9YDAYz2BxAbwR4-60">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ9i3q9YDAYz2BxAbwR4-133" value="CW Goup1~3 Tenant&lt;br&gt;Count: 5" style="text;html=1;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;dashed=1;dashPattern=1 1;gradientColor=#FFE599;gradientDirection=radial;" vertex="1" parent="1">
+          <mxGeometry x="150" y="474" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
